@@ -1,0 +1,303 @@
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #121212;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.middle-btn,
+.right-btn {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.sign-up-btn:link,
+.sign-up-btn:visited {
+  color: #121212;
+  background-color: white;
+  border-radius: 5rem;
+  padding: 12px 24px;
+}
+
+.sign-up-btn:hover,
+.sign-up-btn:active {
+  background-color: #e9ecef;
+}
+
+/* Hero */
+
+.section-hero {
+  background-color: #121212;
+  height: 70rem;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-img {
+  width: 120%;
+}
+
+.hero-heading {
+  font-weight: 600;
+  font-size: 9.6rem;
+  color: white;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 4.8rem;
+}
+
+.get-card-btn:link,
+.get-card-btn:visited {
+  color: #121212;
+  background-color: white;
+  padding: 1.6rem 3.2rem;
+  border-radius: 5rem;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 1.6rem;
+}
+
+.get-card-btn:hover,
+.get-card-btn:active {
+  background-color: #e9ecef;
+}
+
+.learn-more-btn:link,
+.learn-more-btn:visited {
+  border: 1px solid #ffffff;
+  border-radius: 5rem;
+  padding: 1.6rem 3.2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.learn-more-btn:hover,
+.learn-more-btn:active {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* Features */
+
+.features-heading {
+  margin-top: 10.1rem;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.icon-box {
+  background: #121212;
+  border-radius: 10rem;
+  padding: 1.9rem;
+}
+
+.feature-icon {
+  color: white;
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* Testimonial */
+
+.section-testimonial {
+  background-color: #121212;
+  height: 70rem;
+  margin-top: 14.1rem;
+}
+
+.testimonial-heading {
+  color: white;
+  margin-top: 6.4rem;
+  padding: 4.6rem 0;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.test-person-img {
+  border-radius: 50%;
+}
+
+.testimonial-text-main {
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 3.6rem;
+  width: 60.6rem;
+  height: 6.4rem;
+}
+
+.testimonial-second {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 3.2rem;
+  width: 49.4rem;
+  height: 9.8rem;
+}
+
+.img-box-person img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.person-name {
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.8rem;
+  margin-left: 1.6rem;
+}
+
+.person-job {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 1.6rem;
+}
+
+.testimonial-2 {
+  justify-self: end;
+}
+
+/* About */
+
+.section-about {
+  margin-top: 6.4rem;
+}
+
+.about {
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+
+.about-box {
+  width: 120rem;
+  height: 45rem;
+  background-color: #121212;
+  border-radius: 5rem;
+  color: white;
+  padding: 0 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.4rem;
+}
+
+.about-text-main {
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 3.2rem;
+}
+
+.about-text-body {
+  width: 82%;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+
+.footer {
+  height: 400px;
+  background-color: #121212;
+  margin-top: 14.8rem;
+
+  color: white;
+}
+
+.grid--footer {
+  grid-template-columns: 1.4fr 1fr 1.05fr;
+}
+
+.footer-text {
+  margin-top: 3.2rem;
+  line-height: 1.6;
+}
+
+.footer-store {
+  margin-top: 3.2rem;
+}
+
+.footer-store {
+  width: 2;
+}
+
+.sections-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.footer-btn:link,
+.footer-btn:visited {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.contact-col {
+  display: flex;
+  gap: 4.8rem;
+  flex-direction: column;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.social-media-icon {
+  color: #ffffff;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.number-text,
+.number {
+  font-size: 1.3rem;
+}
+
+.number {
+  filter: opacity(0.5);
+}
+
+.footer-container {
+  padding: 7.2rem 3.2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}

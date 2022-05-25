@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d0d0d;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* Btn */
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.5rem;
+
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login:link,
+.login:visited {
+  color: #121212;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+.login:hover,
+.login:active {
+  background-color: #e9ecef;
+}
+
+/* Main */
+
+.layout {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 0.2rem 1fr;
+}
+
+.left {
+  margin-left: 12rem;
+}
+
+.line {
+  background-color: #adb5bd5a;
+  display: block;
+  height: 100vh;
+}
+
+.box {
+  width: 64rem;
+  margin-top: 25%;
+}
+
+.main-text {
+  color: white;
+  font-weight: 500;
+  font-size: 5.2rem;
+}
+
+.desc {
+  color: #ffffffbb;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 2.8rem;
+  width: 54rem;
+}
+
+.hero {
+  height: 100vh;
+}
+
+/* Form */
+
+.btn-logo {
+  position: absolute;
+  display: inline-flex;
+  left: 3%;
+  height: 2rem;
+  width: 2rem;
+  float: left;
+  transition: all 0.3s;
+}
+
+.button-text {
+  transition: all 0.3s;
+}
+
+.button-sign-with,
+.button-sign-with:focus,
+.button-sign-with:active {
+  width: 35rem;
+  margin-top: 3.2rem;
+  background-color: #0d0d0d;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.8rem 9.4rem;
+  border: 1px solid #ffffff50;
+
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+
+  overflow: hidden;
+
+  transition: all 0.3s;
+}
+
+.button-sign-with:hover,
+.button-sign-with:hover span {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+.button-sign-with:hover img {
+  background-color: #ffffff;
+}
+
+.apple {
+  margin-top: 1.6rem;
+}
+
+.divide {
+  display: flex;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.small-line {
+  width: 15.75rem;
+  border: 1px solid #ffffff50;
+}
+
+.or {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  margin: 0 0.8rem;
+  font-size: 1.4rem;
+}
+
+/* Mail */
+
+.mail-text {
+  margin-top: 2.4rem;
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.star {
+  color: #37b24d;
+  font-size: 1.6rem;
+}
+
+.mail-input {
+  width: 35rem;
+  height: 3.9rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ffffff50;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+input::placeholder {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding-left: 1.6rem;
+
+  color: #ffffffa0;
+}
+
+/* Submit button */
+
+.submit {
+  background-color: #ffffff08;
+  width: 35rem;
+  margin-top: 2rem;
+
+  padding: 0.8rem 9.4rem;
+  border: 1px solid #ffffff1b;
+
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  color: rgba(255, 255, 255, 0.254);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* login */
+
+.already {
+  margin-top: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-already {
+  color: #ffffff41;
+  font-size: 1.2rem;
+}
+
+.login-link {
+  color: #37b24d;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
